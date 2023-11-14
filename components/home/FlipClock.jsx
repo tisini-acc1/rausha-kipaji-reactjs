@@ -8,11 +8,13 @@ import "./flipclock.css";
 const FlipClock = () => {
   return (
     <FlipClockCountdown
-      to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
+      to={"2024-04-01T10:00:00.635+03:00"}
       labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
       duration={0.5}
       className="flip-clock"
-    />
+    >
+      <div></div>
+    </FlipClockCountdown>
   );
 };
 
