@@ -17,7 +17,7 @@ const Hero = () => {
           {subtitle}
         </h2>
 
-        <button className="bg-blue-600 hover:bg-green-600 px-[35px] py-[9px] mb-12 text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px] lg:mb-16">
+        <button className="bg-green-600 hover:bg-blue-600 px-[35px] py-[9px] mb-12 text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px] lg:mb-16">
           {buttonText}
         </button>
 
@@ -26,25 +26,25 @@ const Hero = () => {
         </div>
       </div>
     </section>
-
-    // <section className="h-screen w-full bg-hero bg-center bg-cover bg-no-repeat text-white relative flex flex-col justify-center items-center">
-    //   <div className="overlay bg-black bg-opacity-70 absolute w-full h-full"></div>
-
-    //   <div className="absolute flex flex-col items-center text-center">
-    //     <h1 className="text-4xl mb-4 lg:text-7xl">{title}</h1>
-
-    //     <h3 className="mb-12 lg:max-w-[600px] mx-auto font-medium">
-    //       {subtitle}
-    //     </h3>
-
-    //     <FlipClock />
-
-    //     <button className="bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)] px-[35px] py-[9px] mb-[160px] text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px] lg:mb-[194px]">
-    //       {buttonText}
-    //     </button>
-    //   </div>
-    // </section>
   );
 };
 
 export default Hero;
+
+// <section className="h-screen w-full bg-hero bg-center bg-cover bg-no-repeat text-white relative flex flex-col justify-center items-center">
+//   <div className="overlay bg-black bg-opacity-70 absolute w-full h-full"></div>
+
+//   <div className="absolute flex flex-col items-center text-center">
+//     <h1 className="text-4xl mb-4 lg:text-7xl">{title}</h1>
+
+//     <h3 className="mb-12 lg:max-w-[600px] mx-auto font-medium">
+//       {subtitle}
+//     </h3>
+
+//     <FlipClock />
+
+//     <button className="bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)] px-[35px] py-[9px] mb-[160px] text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px] lg:mb-[194px]">
+//       {buttonText}
+//     </button>
+//   </div>
+// </section>

@@ -6,15 +6,15 @@ import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 import "./flipclock.css";
 
 const FlipClock = () => {
+  const endDate = new Date("2024-04-01T10:00:00.635+03:00");
+
   return (
     <FlipClockCountdown
-      to={"2024-04-01T10:00:00.635+03:00"}
+      to={endDate}
       labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
       duration={0.5}
       className="flip-clock"
-    >
-      <div></div>
-    </FlipClockCountdown>
+    />
   );
 };
 
