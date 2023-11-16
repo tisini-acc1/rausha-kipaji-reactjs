@@ -39,3 +39,8 @@ export const whyus = [
       "Facilitates cultural exchange as diverse teams converge, fostering understanding",
   },
 ];
+
+export const cta = {
+  title: "Register your team",
+  buttonText: "Starts in January",
+};

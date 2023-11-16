@@ -4,7 +4,7 @@ import { whyus } from "./Data";
 const WhyUs = () => {
   return (
     <section className="section">
-      <div className="container mx-auto m-12">
+      <div className="container mx-auto ">
         <div className="flex flex-col lg:flex-row lg:gap-x-[100px]">
           <div className="flex-1 order-1 lg:-order-1 flex justify-center mt-8 lg:mt-0">
             <Image
@@ -17,7 +17,7 @@ const WhyUs = () => {
           </div>
 
           <div className="flex flex-1 flex-col justify-end">
-            <h2 className="text-5xl mb-4 font-bold">Why Rausha Kipaji</h2>
+            <h2 className="title">Why Rausha Kipaji</h2>
             <p className="text-[#71717a]">
               Embrace continuous learning as the key to perpetual development
               and growth. Explore why our football tournament is your preferred

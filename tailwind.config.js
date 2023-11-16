@@ -9,7 +9,7 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: "1.5rem",
-        // lg: '3rem',
+        // lg: "3rem",
       },
     },
     screens: {
@@ -32,8 +32,8 @@ module.exports = {
         pink: "pink",
       },
       backgroundImage: {
-        hero: 'url("/src/assets/img/hero-bg.png")',
-        newsletter: 'url("/src/assets/img/newsletter.png")',
+        hero: 'url("/images/hero-bg.jpg")',
+        cta: 'url("/images/hero-bg1.jpg")',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",
