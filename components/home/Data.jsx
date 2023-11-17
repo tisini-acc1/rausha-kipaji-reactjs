@@ -2,6 +2,10 @@ import { RiTeamLine } from "react-icons/ri";
 import { IoIosPerson } from "react-icons/io";
 import { SiTalenthouse } from "react-icons/si";
 import { TiSocialDribbbleCircular } from "react-icons/ti";
+import { FaFacebook } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 export const hero = {
   title: "Rausha Kipaji Cup",
@@ -41,6 +45,51 @@ export const whyus = [
 ];
 
 export const cta = {
-  title: "Register your team",
-  buttonText: "Starts in January",
+  title: "Register your team(s) today",
+  subtitle: "regestration starts in January",
+  buttonText: "Download form",
+};
+
+export const testimonial = {
+  title: "What people are saying about us",
+  subtitle:
+    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
+  persons: [
+    {
+      avatar: "/avatars/avatar.jpg",
+      name: "Josh Smith",
+      title: "Manager of Kenya United",
+      message:
+        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    },
+    {
+      avatar: "/avatars/avatar1.jpg",
+      name: "Brandi Johns",
+      title: "Manager of Kenya United",
+      message:
+        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    },
+    {
+      avatar: "/avatars/avatar.jpg",
+      name: "Paula Pfeffer",
+      title: "Manager of Kenya United",
+      message:
+        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    },
+  ],
+};
+
+export const footer = {
+  socials: [
+    { name: "facebook", icon: <FaFacebook /> },
+    { name: "twitter", icon: <FaXTwitter /> },
+    { name: "instagram", icon: <FaInstagram /> },
+    { name: "linkedin", icon: <FaLinkedinIn /> },
+  ],
+  links: [
+    { name: "Home", link: "/" },
+    { name: "About", link: "/about" },
+    { name: "Scores", link: "/scores" },
+    { name: "Winners", link: "/champions" },
+  ],
 };
