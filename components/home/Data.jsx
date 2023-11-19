@@ -6,6 +6,9 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export const hero = {
   title: "Rausha Kipaji Cup",
@@ -91,5 +94,13 @@ export const footer = {
     { name: "About", link: "/about" },
     { name: "Scores", link: "/scores" },
     { name: "Winners", link: "/champions" },
+  ],
+  contacts: [
+    { icon: <FaPhoneAlt />, contact: "0712345678" },
+    { icon: <FaWhatsapp />, contact: "0712345678" },
+    {
+      icon: <MdEmail />,
+      contact: "info@raushakipaji.com",
+    },
   ],
 };

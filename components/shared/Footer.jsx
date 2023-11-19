@@ -1,14 +1,15 @@
 import Link from "next/link";
+
 import { footer } from "../home/Data";
 
 const Footer = () => {
   const date = new Date().getFullYear();
-  const { socials, links } = footer;
+  const { socials, links, contacts } = footer;
 
   return (
-    <footer className="section bg-black text-white">
-      <div className="container grid grid-cols-3 gap-8">
-        <div>
+    <footer className="py-4 bg-black text-white">
+      <div className="max-w-5xl mx-auto py-4 border-b-2 border-gray-400 flex flex-col md:flex-row gap-8 md:justify-between md:px-4">
+        <div className="flex-1 self-center px-8 md:px-0">
           <h5>
             <Link
               className="inline-block mb-4 text-base font-semibold"
@@ -37,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
+        <div className="flex-1 mr-4 px-8 md:px-0">
           <h4 className="mb-4 text-xl font-semibold">Quick Links</h4>
           <div>
             {links.map((link) => (
@@ -52,12 +53,22 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
+        <address className="px-8 md:pr-8 lg:pr-0 md:px-0 md:text-right">
           <h4 className="mb-4 text-xl font-semibold">Contact Us</h4>
-        </div>
+
+          {contacts.map((contact) => (
+            <div
+              key={contact.icon}
+              className="flex md:justify-end gap-4 m-2 text-[#a3a3a3]"
+            >
+              <div className="py-1 text-xl text-[#ff581f]">{contact.icon}</div>
+              <h5 className="">{contact.contact}</h5>
+            </div>
+          ))}
+        </address>
       </div>
 
-      <div className="px-4 py-4 text-sm text-center text-[#a3a3a3]">
+      <div className="px-4 pt-4 pb-2 text-sm text-center text-[#a3a3a3]">
         Copyright @{date} Rausha Kipaji. All rights reserved.
       </div>
     </footer>
