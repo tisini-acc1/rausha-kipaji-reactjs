@@ -20,12 +20,12 @@ export const navigation = [
     href: "/about",
   },
   {
-    name: "features",
-    href: "/features",
+    name: "scores",
+    href: "/scores",
   },
   {
-    name: "contact",
-    href: "/contact",
+    name: "winners",
+    href: "/winners",
   },
 ];
 
