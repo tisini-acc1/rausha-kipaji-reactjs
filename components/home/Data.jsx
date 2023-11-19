@@ -10,6 +10,25 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+export const navigation = [
+  {
+    name: "home",
+    href: "/",
+  },
+  {
+    name: "about",
+    href: "/about",
+  },
+  {
+    name: "features",
+    href: "/features",
+  },
+  {
+    name: "contact",
+    href: "/contact",
+  },
+];
+
 export const hero = {
   title: "Rausha Kipaji Cup",
   subtitle: "Africa's premier youth football tournament",
