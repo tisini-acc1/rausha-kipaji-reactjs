@@ -17,7 +17,7 @@ const Hero = () => {
           {subtitle}
         </h2>
 
-        <button className="bg-green-600 hover:bg-blue-600 px-[35px] py-[9px] mb-12 text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px] lg:mb-16">
+        <button className="bg-orange hover:bg-green-600 px-[35px] py-[9px] mb-12 text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px] lg:mb-16">
           {buttonText}
         </button>
 

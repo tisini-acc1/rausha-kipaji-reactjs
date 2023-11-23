@@ -10,7 +10,7 @@ const CallToAction = () => {
 
         <h3 className="subtitle">{cta.subtitle}</h3>
 
-        <button className="bg-green-600 hover:bg-blue-600 px-[35px] py-[9px] text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px]">
+        <button className="hover:bg-green-600 bg-orange px-[35px] py-[9px] text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px]">
           {cta.buttonText}
         </button>
       </div>

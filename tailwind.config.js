@@ -27,6 +27,9 @@ export default {
         white: "#fff",
         pink: "pink",
       },
+      backgroundColor: {
+        orange: "#ff581f",
+      },
       backgroundImage: {
         hero: 'url("/images/hero-bg.jpg")',
         cta: 'url("/images/hero-bg1.jpg")',

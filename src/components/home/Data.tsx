@@ -75,7 +75,7 @@ export const cta = {
 export const testimonial = {
   title: "What people are saying about us",
   subtitle:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
+    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
   persons: [
     {
       avatar: "/avatars/avatar.jpg",

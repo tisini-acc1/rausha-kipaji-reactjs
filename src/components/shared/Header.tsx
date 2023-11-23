@@ -43,7 +43,7 @@ const Header = () => {
               {navigation.map((item) => (
                 <li key={item.name}>
                   <Link
-                    className="capitalize text-white hover:border-b transition-all"
+                    className="capitalize text-white hover:border-b hover:border-[#ff581f] hover:text-[#ff581f] transition-all"
                     to={item.href}
                   >
                     {item.name}

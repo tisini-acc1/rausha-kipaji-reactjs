@@ -1,56 +1,65 @@
-import Image from "next/image";
+// import Swiper from "./Swiper";
 import { FaQuoteRight } from "react-icons/fa";
-import { register } from "swiper/element/bundle";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
+import "./testimonial.css";
 import { testimonial } from "./Data";
 
-register();
-
 const Testimonial = () => {
-  const { title, subtitle, persons } = testimonial;
+  const { title, persons } = testimonial;
 
   return (
-    // bg-[#232220]
-    <section className="">
-      <div className="container">
-        <p>Testimonial</p>
-        <h2>{title}</h2>
-        <p className="mt-4 ml-16 text-[#a3a3a3]">{subtitle}</p>
+    <section className="bg-[#232220] text-white">
+      <div className="container mx-auto px-4 pt-12">
+        <p className="section__subheader">Testimonial</p>
+        <h2 className="text-4xl font-semibold mb-4">{title}</h2>
+        {/* <p className="mt-4 ml-16 text-[#a3a3a3]">{subtitle}</p> */}
 
-        <div>
-          <swiper-container
-            className="w-full pb-16"
-            slides-per-view="1"
-            speed="500"
-            loop="true"
-            css-mode="true"
-            navigation="true"
-            pagination="true"
-            scrollbar="true"
+        <div className="w-full pb-16 mt-8">
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={50}
+            slidesPerView={1}
+            navigation
+            // pagination={{ clickable: true }}
+            // scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
           >
-            {persons.map((person) => (
-              <swiper-slide key={person.name}>
-                <div>
-                  <span>
+            {persons.map((person, index) => (
+              <SwiperSlide key={index}>
+                <div className="relative isolate max-w-[600px] mx-auto">
+                  <div className="absolute top-0 left-0 text-8xl leading-10 text-[#ff581f] opacity-10">
                     <FaQuoteRight />
-                  </span>
-                  <p>{person.message}</p>
+                  </div>
+                  <p className="mb-8 text-[#a3a3a3]">{person.message}</p>
 
-                  <div>
-                    <Image
+                  <div className="flex items-center justify-center gap-4 ">
+                    <img
+                      className="m-x-[70px] rounded-full h-20 w-20"
                       src={person.avatar}
                       alt="customer image"
                       width={100}
                       height={100}
                     />
                     <div>
-                      <h4>{person.name}</h4>
-                      <h5>{person.title}</h5>
+                      <h4 className="text-xl font-medium">{person.name}</h4>
+                      <h5 className="text-base font-normal text-[#a3a3a3]">
+                        {person.title}
+                      </h5>
                     </div>
                   </div>
                 </div>
-              </swiper-slide>
+              </SwiperSlide>
             ))}
-          </swiper-container>
+          </Swiper>
         </div>
       </div>
     </section>
