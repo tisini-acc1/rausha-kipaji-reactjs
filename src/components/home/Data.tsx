@@ -74,19 +74,29 @@ export const cta = {
 
 export const partners = {
   title: "Trusted by global leaders",
-  brands: [
+  pages: [
+    {
+      brands: [
+        { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+        { id: 2, logo: "/partners/tisini-logo.png" },
+        { id: 3, logo: "/partners/rausha-kipaji-logo.png" },
+        { id: 4, logo: "/partners/tisini-logo.png" },
+      ],
+    },
+    {
+      brands: [
+        { id: 2, logo: "/partners/tisini-logo.png" },
+        { id: 3, logo: "/partners/rausha-kipaji-logo.png" },
+        { id: 4, logo: "/partners/tisini-logo.png" },
+        { id: 5, logo: "/partners/rausha-kipaji-logo.png" },
+      ],
+    },
+  ],
+  mobileBrands: [
     { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
     { id: 2, logo: "/partners/tisini-logo.png" },
     { id: 3, logo: "/partners/rausha-kipaji-logo.png" },
     { id: 4, logo: "/partners/tisini-logo.png" },
-    { id: 5, logo: "/partners/rausha-kipaji-logo.png" },
-    { id: 6, logo: "/partners/tisini-logo.png" },
-    { id: 7, logo: "/partners/rausha-kipaji-logo.png" },
-    { id: 8, logo: "/partners/tisini-logo.png" },
-    { id: 9, logo: "/partners/rausha-kipaji-logo.png" },
-    { id: 10, logo: "/partners/tisini-logo.png" },
-    { id: 11, logo: "/partners/rausha-kipaji-logo.png" },
-    { id: 12, logo: "/partners/tisini-logo.png" },
   ],
 };
 
