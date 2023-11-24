@@ -1,4 +1,4 @@
-import { cta } from "./Data";
+import { cta } from "../Data";
 
 const CallToAction = () => {
   return (

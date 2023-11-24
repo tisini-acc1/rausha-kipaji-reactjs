@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 import "./testimonial.css";
-import { testimonial } from "./Data";
+import { testimonial } from "../Data";
 
 const Testimonial = () => {
   const { title, persons } = testimonial;

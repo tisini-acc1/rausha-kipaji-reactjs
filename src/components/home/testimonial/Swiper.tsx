@@ -1,7 +1,7 @@
 import { FaQuoteRight } from "react-icons/fa";
 import { register } from "swiper/element/bundle";
 
-import { testimonial } from "./Data";
+import { testimonial } from "../Data";
 
 register();
 

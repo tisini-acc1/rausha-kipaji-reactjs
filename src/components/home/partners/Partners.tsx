@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { partners } from "./Data";
+import { partners } from "../Data";
 import PartnersSwiper from "./PartnersSwiper";
 import PartnersSwiperMobile from "./PartnersSwiperMobile";
 
@@ -18,7 +18,7 @@ const Partners = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  });
+  }, []);
 
   return (
     <section className="section pb-4">

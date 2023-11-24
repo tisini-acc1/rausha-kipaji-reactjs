@@ -73,7 +73,7 @@ export const cta = {
 };
 
 export const partners = {
-  title: "Trusted by global leaders",
+  title: "Trusted by industry leaders",
   pages: [
     {
       brands: [

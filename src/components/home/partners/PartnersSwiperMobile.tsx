@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import { partners } from "./Data";
+import { partners } from "../Data";
 
 const PartnersSwiperMobile = () => {
   const { mobileBrands } = partners;

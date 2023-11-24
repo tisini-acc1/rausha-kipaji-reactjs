@@ -1,4 +1,4 @@
-import { hero } from "./Data";
+import { hero } from "../Data";
 import FlipClock from "./FlipClock";
 
 const Hero = () => {

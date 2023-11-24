@@ -1,4 +1,4 @@
-import { whyus } from "./Data";
+import { whyus } from "../Data";
 
 const WhyUs = () => {
   return (

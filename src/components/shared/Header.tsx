@@ -21,12 +21,6 @@ const Header = () => {
     };
   }, []);
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     return window.scrollY > 50 ? setBg(true) : setBg(false);
-  //   });
-  // });
-
   return (
     <header
       className={`${
