@@ -72,6 +72,24 @@ export const cta = {
   buttonText: "Download form",
 };
 
+export const partners = {
+  title: "Trusted by global leaders",
+  brands: [
+    { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+    { id: 1, logo: "/partners/tisini-logo.png" },
+    { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+    { id: 1, logo: "/partners/tisini-logo.png" },
+    { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+    { id: 1, logo: "/partners/tisini-logo.png" },
+    { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+    { id: 1, logo: "/partners/tisini-logo.png" },
+    { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+    { id: 1, logo: "/partners/tisini-logo.png" },
+    { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+    { id: 1, logo: "/partners/tisini-logo.png" },
+  ],
+};
+
 export const testimonial = {
   title: "What people are saying about us",
   subtitle:
