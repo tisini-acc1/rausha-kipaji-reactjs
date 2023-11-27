@@ -1,5 +1,11 @@
+import Hero from "@components/about/Hero";
+
 const AboutPage = () => {
-  return <div>AboutPage</div>;
+  return (
+    <main className="w-full">
+      <Hero />
+    </main>
+  );
 };
 
 export default AboutPage;
