@@ -21,7 +21,7 @@ export const navigation = [
   },
   {
     name: "FAQs",
-    href: "/scores",
+    href: "/faqs",
   },
   // {
   //   name: "winners",
