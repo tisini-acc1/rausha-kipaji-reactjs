@@ -13,4 +13,6 @@ export const ourStory = {
     "Join us on this exciting journey as we celebrate the spirit of youth sports, where every player is a story waiting to be told, and every tournament is a chapter in our shared narrative.",
 };
 
-// Rausha Kipaji — where every story begins with the love of the game.
+export const quote = {
+  title: "Rausha Kipaji — where every story begins with the love of the game.",
+};

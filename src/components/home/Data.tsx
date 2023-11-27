@@ -20,13 +20,13 @@ export const navigation = [
     href: "/about",
   },
   {
-    name: "scores",
+    name: "FAQs",
     href: "/scores",
   },
-  {
-    name: "winners",
-    href: "/winners",
-  },
+  // {
+  //   name: "winners",
+  //   href: "/winners",
+  // },
 ];
 
 export const hero = {
