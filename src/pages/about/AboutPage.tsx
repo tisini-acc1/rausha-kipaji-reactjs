@@ -1,6 +1,7 @@
 import Hero from "@components/about/Hero";
-import OurStory from "@components/about/OurStory";
 import Quote from "@components/about/Quote";
+import OurStory from "@components/about/OurStory";
+import WhoWeAre from "@components/about/WhoWeAre";
 
 const AboutPage = () => {
   return (
@@ -8,6 +9,7 @@ const AboutPage = () => {
       <Hero />
       <OurStory />
       <Quote />
+      <WhoWeAre />
     </main>
   );
 };

@@ -14,5 +14,59 @@ export const ourStory = {
 };
 
 export const quote = {
-  title: "Rausha Kipaji — where every story begins with the love of the game.",
+  title:
+    "We are passionate about fostering a love for sports and empowering the next generation of athletes",
+};
+
+// export const ourMission = {
+
+// intro: 'At [Your Website Name], we are passionate about fostering a love for sports and empowering the next generation of athletes. Our platform is dedicated to providing exciting and inclusive youth tournaments that go beyond competition to create lasting memories and valuable experiences.',
+
+// What Sets Us Apart: [
+//     `Inclusive Community`: "We believe in the power of sports to unite and inspire. Our tournaments bring together diverse youth from various backgrounds, creating a supportive community that celebrates teamwork, respect, and friendly competition.",
+//     Skill Development: "Beyond the thrill of competition, our tournaments focus on holistic skill development. We aim to nurture not only athletic abilities but also sportsmanship, leadership, and resilience – qualities that extend far beyond the playing field."
+
+//     Passionate Teams: "From soccer to basketball, and everything in between, we provide a platform for youth teams to showcase their talent and passion. Our tournaments offer a stage for athletes to shine and a space for teams to bond over shared goals."
+// ]
+
+// mission: "Our mission at [Your Website Name] is to cultivate a love for sportsmanship and camaraderie among young athletes. We are committed to organizing high-quality tournaments that prioritize fair play, teamwork, and skill enhancement. By creating an environment where youth can flourish both athletically and personally, we aim to contribute to the development of well-rounded individuals who carry the lessons learned on the field into their futures.",
+
+// Get Involved: "Whether you're a player, coach, parent, or sports enthusiast, we invite you to join our community. Explore our upcoming tournaments, connect with like-minded individuals, and be part of the excitement. Together, let's champion the spirit of youth sports!"
+
+// }
+
+export const whoWeAre = {
+  caption: "who we are",
+  title:
+    "In 1978, a group of four individuals came together with a shared vision. The rest is history.",
+  persons: [
+    {
+      image: "/images/pele.jpg",
+      name: "John Doe",
+      position: "story teller",
+      about:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
+    },
+    {
+      image: "/images/pele.jpg",
+      name: "james Doe",
+      position: "taxman",
+      about:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
+    },
+    {
+      image: "/images/pele.jpg",
+      name: "jane Doe",
+      position: "adminstrator",
+      about:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
+    },
+    {
+      image: "/images/pele.jpg",
+      name: "james Doe",
+      position: "driver",
+      about:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
+    },
+  ],
 };

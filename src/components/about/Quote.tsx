@@ -8,7 +8,7 @@ const Quote = () => {
       <div className="bg-black bg-opacity-70 absolute inset-0"></div>
 
       <div className="flex items-center justify-center h-full">
-        <h1 className="title z-20 max-w-[800px] p-8 lg:p-0">{title}</h1>
+        <h1 className="title absolute max-w-[800px] p-8 lg:p-0">{title}</h1>
       </div>
     </section>
   );
