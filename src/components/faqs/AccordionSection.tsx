@@ -1,12 +1,22 @@
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 
-const AccordionSection = ({
-  section,
-  isActiveSection,
-  setActiveIndex,
-  sectionIndex,
-}) => {
+type SectionType = {
+  id: number;
+  question: string;
+  answer: string;
+};
+
+type AccordionProps = {
+  section: SectionType;
+  isActiveSection: boolean;
+  setActiveIndex: React.Dispatch<React.SetStateAction<number>>;
+  sectionIndex: number;
+};
+
+const AccordionSection = (props: AccordionProps) => {
+  const { section, isActiveSection, setActiveIndex, sectionIndex } = props;
+
   const toggleSection = () => {
     const nextIndex = isActiveSection ? 0 : sectionIndex;
     setActiveIndex(nextIndex);
