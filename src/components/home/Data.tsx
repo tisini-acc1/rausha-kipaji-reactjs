@@ -23,10 +23,10 @@ export const navigation = [
     name: "FAQs",
     href: "/faqs",
   },
-  // {
-  //   name: "winners",
-  //   href: "/winners",
-  // },
+  {
+    name: "Gallery",
+    href: "/gallery",
+  },
 ];
 
 export const hero = {

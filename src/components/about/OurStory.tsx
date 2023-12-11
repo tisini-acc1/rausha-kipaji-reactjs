@@ -1,7 +1,8 @@
 import { ourStory } from "./AboutData";
 
 const OurStory = () => {
-  const { caption, title, intro, para1, para2, outro, image } = ourStory;
+  const { caption, title, intro, para1, para2, para3, para4, outro, image } =
+    ourStory;
   return (
     <section className="section">
       <div className="container">
@@ -17,12 +18,19 @@ const OurStory = () => {
             <div className="flex gap-4 flex-col lg:p-4 text-base">
               <p>{intro}</p>
               <p>{para1}</p>
+              <p>{para2}</p>
+              <p>{para3}</p>
             </div>
           </div>
           <div className="flex-1">
             <div className="flex gap-4 flex-col lg:p-4 text-base">
-              <p>{para2}</p>
-              <p>{outro}</p>
+              <h1>Activities planned for implementation are: -</h1>
+              {para4.activity.map((act, idx) => (
+                <div key={idx} className="flex items-center gap-2">
+                  <span className="bg-red-500 h-1 w-1 p-2 rounded-full"></span>
+                  <h1 className="font-semibold text-lg">{act.act}</h1>
+                </div>
+              ))}
             </div>
           </div>
           <div className="flex-1">

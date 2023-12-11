@@ -26,6 +26,7 @@ export default {
         },
         white: "#fff",
         pink: "pink",
+        orange: "#ff581f",
       },
       backgroundColor: {
         orange: "#ff581f",
@@ -33,6 +34,9 @@ export default {
       backgroundImage: {
         hero: 'url("/images/hero-bg.jpg")',
         cta: 'url("/images/hero-bg1.jpg")',
+        about: 'url("/images/hero-bg.jpg")',
+        quote: 'url("/images/hero-bg.jpg")',
+        faqs: 'url("/images/hero-bg.jpg")',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",

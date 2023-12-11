@@ -16,7 +16,7 @@ const WhyUs = () => {
           </div>
 
           <div className="flex flex-1 flex-col justify-end">
-            <h2 className="title">Why Rausha Kipaji</h2>
+            <h2 className="title">Why Rausha Kipaji Cup</h2>
             <p className="text-[#71717a]">
               Embrace continuous learning as the key to perpetual development
               and growth. Explore why our football tournament is your preferred
@@ -26,7 +26,7 @@ const WhyUs = () => {
             <div className="mt-8 grid grid-cols-2 gap-x-8 gap-y-4">
               {whyus.map((data) => (
                 <div key={data.id}>
-                  <span className="inline-block mb-2 px-[5px] py-[5px] text-xl bg-[#cad8d8] rounded-full">
+                  <span className="inline-block mb-2 px-[5px] py-[5px] text-xl bg-red-400 rounded-full">
                     {data.icon}
                   </span>
                   <h4 className="mb-4 text-lg font-semibold text-[#18181b]">

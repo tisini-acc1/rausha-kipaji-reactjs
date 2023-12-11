@@ -2,9 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "@pages/home/Home";
 import Layout from "@pages/layout/layout";
-import FaqsPage from "@pages/scores/FaqsPage";
+import FaqsPage from "@pages/faqs/FaqsPage";
 import AboutPage from "@pages/about/AboutPage";
-import WinnersPage from "@pages/faqs/WinnersPage";
+import GalleryPage from "@pages/gallery/GalleryPage";
 
 const Router = () => {
   return (
@@ -14,7 +14,7 @@ const Router = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/faqs" element={<FaqsPage />} />
-          <Route path="/winners" element={<WinnersPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
