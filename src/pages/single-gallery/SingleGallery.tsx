@@ -11,10 +11,10 @@ const SingleGallery = () => {
   return (
     <main className="w-full">
       <section className="bg-hero bg-no-repeat bg-cover bg-center min-h-screen text-white relative pt-[110px] flex justify-center">
-        <div className="bg-red-900 bg-opacity-70 absolute inset-0"></div>
+        <div className="bg-black bg-opacity-70 absolute inset-0"></div>
 
         <div className="flex flex-col gap-2 absolute p-4">
-          <h1 className="text-white font-semibold lg:text-xl mb-8">
+          <h1 className="text-white font-bold lg:text-2xl mb-8">
             {seasonImages[0].year} Memories
           </h1>
 

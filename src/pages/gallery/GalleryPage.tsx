@@ -6,7 +6,7 @@ const GalleryPage = () => {
   return (
     <main className="w-full">
       <section className="bg-hero bg-no-repeat bg-cover bg-center min-h-screen text-white relative pt-[110px] lg:pt-[200px] flex justify-center">
-        <div className="bg-red-900 bg-opacity-70 absolute inset-0"></div>
+        <div className="bg-black bg-opacity-70 absolute inset-0"></div>
 
         <div className="grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 absolute">
           {seasons.map((season) => (

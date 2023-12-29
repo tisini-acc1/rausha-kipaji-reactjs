@@ -1,8 +1,7 @@
 import { ourStory } from "./AboutData";
 
 const OurStory = () => {
-  const { caption, title, intro, para1, para2, para3, para4, outro, image } =
-    ourStory;
+  const { caption, title, intro, para1, para2, para3, para4, image } = ourStory;
   return (
     <section className="section">
       <div className="container">

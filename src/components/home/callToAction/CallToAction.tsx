@@ -3,7 +3,7 @@ import { cta } from "../Data";
 const CallToAction = () => {
   return (
     <section className="bg-cta bg-no-repeat bg-cover bg-center h-[400px] text-white relative">
-      <div className="overlay absolute bg-red-900 bg-opacity-50 inset-0"></div>
+      <div className="overlay absolute bg-black bg-opacity-50 inset-0"></div>
 
       <div className="container text-center flex flex-col items-center justify-center h-full relative z-10">
         <h1 className="title mb-4">{cta.title}</h1>

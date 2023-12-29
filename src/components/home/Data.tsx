@@ -32,7 +32,7 @@ export const navigation = [
 export const hero = {
   title: "Rausha Kipaji Cup",
   subtitle: "Africa's premier youth football tournament",
-  buttonText: "Starts in April",
+  buttonText: "18th - 21st April, 2024",
 };
 
 export const whyus = [
@@ -106,11 +106,11 @@ export const testimonial = {
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
   persons: [
     {
-      avatar: "/avatars/avatar.jpg",
-      name: "Josh Smith",
-      title: "Manager of Kenya United",
+      avatar: "/avatars/Okalo.jpeg",
+      name: "Coach Okalo",
+      title: "DeSa Soccer Academy (2023) - Kakamega County",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "Rausha Kipaji Cup is arguably the best organized tournament in Kenya for the junior categories.",
     },
     {
       avatar: "/avatars/avatar1.jpg",
