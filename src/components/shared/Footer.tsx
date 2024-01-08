@@ -21,7 +21,8 @@ const Footer = () => {
             {socials.map((soc) => (
               <a
                 key={soc.name}
-                href="#"
+                href={soc.link}
+                target="_blank"
                 className="py-[5px] px-[10px] text-xl text-[#ff581f] bg-[#232220] transition duration-300 hover:text-[#ffffff] hover:bg-[#ff581f]"
               >
                 {soc.icon}
@@ -46,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className="px-4 pt-4 pb-2 text-sm text-center text-[#a3a3a3]">
-        Copyright @{date} Rausha Kipaji. All rights reserved.
+        Copyright @{date} Rausha Kipaji Cup. All rights reserved.
       </div>
     </footer>
   );

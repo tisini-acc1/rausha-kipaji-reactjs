@@ -3,7 +3,7 @@ export const seasons = [
     year: "2023",
     theme: "Going green through sports",
     images: [
-      "/images/23/rausha-1.jpg",
+      "/images/23/kipaji2023.jpeg",
       "/images/23/rausha-2.jpg",
       "/images/23/rausha-3.jpg",
       "/images/23/rausha-4.jpg",
@@ -31,7 +31,7 @@ export const seasons = [
     year: "2021",
     theme: "Going green through sports",
     images: [
-      "/images/23/rausha-3.jpg",
+      "/images/21/kipaji2021.jpeg",
       "/images/23/rausha-1.jpg",
       "/images/23/rausha-2.jpg",
       "/images/23/rausha-4.jpg",

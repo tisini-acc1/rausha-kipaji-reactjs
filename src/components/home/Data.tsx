@@ -32,7 +32,7 @@ export const navigation = [
 export const hero = {
   title: "Rausha Kipaji Cup",
   subtitle: "Africa's premier youth football tournament",
-  buttonText: "18th - 21st April, 2024",
+  buttonText: "28th - 30th April, 2024",
 };
 
 export const whyus = [
@@ -55,7 +55,7 @@ export const whyus = [
     icon: <SiTalenthouse />,
     title: "Talent Identification",
     subtitle:
-      "Serves as a talent pool for discovering young players with potential for higher-level football",
+      "Serves as a talent pool for discovering young players with potential for elite or professional football",
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ export const whyus = [
 
 export const cta = {
   title: "Register your team(s) today",
-  subtitle: "regestration starts in January",
+  subtitle: "regestration starts in March",
   buttonText: "Download form",
 };
 
@@ -131,9 +131,17 @@ export const testimonial = {
 
 export const footer = {
   socials: [
-    { name: "facebook", icon: <FaFacebook /> },
+    {
+      name: "facebook",
+      icon: <FaFacebook />,
+      link: "https://web.facebook.com/profile.php?id=100063722136488&mibextid=ZbWKwL&_rdc=1&_rdr",
+    },
     { name: "twitter", icon: <FaXTwitter /> },
-    { name: "instagram", icon: <FaInstagram /> },
+    {
+      name: "instagram",
+      icon: <FaInstagram />,
+      link: "https://www.instagram.com/raushakipajicup/?utm_source=qr&igsh=MXJ2OHVyNzFxZTRyMA%3D%3D",
+    },
     { name: "linkedin", icon: <FaLinkedinIn /> },
   ],
   links: [
@@ -143,8 +151,8 @@ export const footer = {
     { name: "Winners", link: "/champions" },
   ],
   contacts: [
-    { icon: <FaPhoneAlt />, contact: "0712345678" },
-    { icon: <FaWhatsapp />, contact: "0712345678" },
+    { icon: <FaPhoneAlt />, contact: "+254 723 803355,  +254 723 158975" },
+    { icon: <FaWhatsapp />, contact: "+254 720 435886,  +47 944 49 948" },
     {
       icon: <MdEmail />,
       contact: "info@raushakipaji.com",
