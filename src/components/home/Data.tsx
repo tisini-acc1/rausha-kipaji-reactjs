@@ -32,7 +32,7 @@ export const navigation = [
 export const hero = {
   title: "Rausha Kipaji Cup",
   subtitle: "Africa's premier youth football tournament",
-  buttonText: "28th - 30th April, 2024",
+  buttonText: "18th - 21st April, 2024",
 };
 
 export const whyus = [
@@ -67,9 +67,9 @@ export const whyus = [
 ];
 
 export const cta = {
-  title: "Register your team(s) today",
-  subtitle: "regestration starts in March",
-  buttonText: "Download form",
+  title: "Register your team(s) with Tisini",
+  subtitle: "Africa's No. 1 Sport's Data Platform",
+  buttonText: "Register Now",
 };
 
 export const partners = {
@@ -77,26 +77,26 @@ export const partners = {
   pages: [
     {
       brands: [
-        { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+        { id: 1, logo: "/partners/mec-logo.jpeg" },
         { id: 2, logo: "/partners/tisini-logo.png" },
-        { id: 3, logo: "/partners/rausha-kipaji-logo.png" },
-        { id: 4, logo: "/partners/tisini-logo.png" },
+        { id: 3, logo: "/partners/cheza-sports-logo.jpeg" },
+        { id: 4, logo: "/partners/soka-afrika-logo.jpeg" },
       ],
     },
     {
       brands: [
+        { id: 1, logo: "/partners/mec-logo.jpeg" },
+        { id: 3, logo: "/partners/cheza-sports-logo.jpeg" },
         { id: 2, logo: "/partners/tisini-logo.png" },
-        { id: 3, logo: "/partners/rausha-kipaji-logo.png" },
-        { id: 4, logo: "/partners/tisini-logo.png" },
-        { id: 5, logo: "/partners/rausha-kipaji-logo.png" },
+        { id: 4, logo: "/partners/soka-afrika-logo.jpeg" },
       ],
     },
   ],
   mobileBrands: [
-    { id: 1, logo: "/partners/rausha-kipaji-logo.png" },
+    { id: 1, logo: "/partners/mec-logo.jpeg" },
+    { id: 3, logo: "/partners/cheza-sports-logo.jpeg" },
+    { id: 4, logo: "/partners/soka-afrika-logo.jpeg" },
     { id: 2, logo: "/partners/tisini-logo.png" },
-    { id: 3, logo: "/partners/rausha-kipaji-logo.png" },
-    { id: 4, logo: "/partners/tisini-logo.png" },
   ],
 };
 
@@ -114,18 +114,18 @@ export const testimonial = {
     },
     {
       avatar: "/avatars/avatar1.jpg",
-      name: "Brandi Johns",
-      title: "Manager of Kenya United",
+      name: "Coach Aswani",
+      title: "Soka Talent",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "As Soka Talent, this is our third edition in the Rausha Kipaji Cup. The first one was better and the second one even better. We are expecting stiff competition especially from Nairobi teams",
     },
-    {
-      avatar: "/avatars/avatar.jpg",
-      name: "Paula Pfeffer",
-      title: "Manager of Kenya United",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    },
+    // {
+    //   avatar: "/avatars/avatar.jpg",
+    //   name: "Paula Pfeffer",
+    //   title: "Manager of Kenya United",
+    //   message:
+    //     "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+    // },
   ],
 };
 

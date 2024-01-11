@@ -45,7 +45,7 @@ const Header = () => {
           </div>
 
           <nav className="hidden md:flex">
-            <ul className="md:flex gap-x-12">
+            <ul className="md:flex items-center gap-x-12">
               {navigation.map((item) => (
                 <li key={item.name}>
                   <Link
@@ -56,6 +56,15 @@ const Header = () => {
                   </Link>
                 </li>
               ))}
+
+              <a
+                href="https://tisini-portal.vercel.app/auth/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:bg-green-600 bg-orange  text-xl rounded-md backdrop-blur-md transition p-2"
+              >
+                Register Here
+              </a>
             </ul>
           </nav>
 

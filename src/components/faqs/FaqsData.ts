@@ -8,7 +8,7 @@ export const tournamentQuestions = {
     },
     {
       id: 2,
-      question: "Where will Rausha Kipaji take place?",
+      question: "Where will Rausha Kipaji Cup take place?",
       answer:
         "Nakuru Boys High School and Nakuru Girls High School, in Nakuru County, Kenya.",
     },

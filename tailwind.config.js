@@ -33,10 +33,10 @@ export default {
       },
       backgroundImage: {
         hero: 'url("/images/hero-bg.jpg")',
-        cta: 'url("/images/hero-bg1.jpg")',
+        cta: 'url("/images/23/rausha-6.jpg")',
         about: 'url("/images/hero-bg.jpg")',
         quote: 'url("/images/hero-bg.jpg")',
-        faqs: 'url("/images/hero-bg.jpg")',
+        faqs: 'url("/images/23/kipaji2023.jpeg")',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",

@@ -1,7 +1,7 @@
 export const ourStory = {
   caption: "our story",
   title: "2024 Focus –Going Green Through Sports!",
-  image: "/images/hero-bg1.jpg",
+  image: "/images/23/rausha-4.jpg",
   intro:
     "Rausha Kipaji Cup – is the leading grassroots youth football tournament in Kenya, organized during the April school holiday in Nakuru County, Kenya.",
   para1:
@@ -35,32 +35,32 @@ export const whoWeAre = {
     "In 1978, a group of four individuals came together with a shared vision. The rest is history.",
   persons: [
     {
-      image: "/images/pele.jpg",
-      name: "John Doe",
-      position: "story teller",
+      image: "/avatars/mbenzwa-avatar.jpeg",
+      name: "Mbenzwa Kamara",
+      position: "Chairman & co-founder",
       about:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
     },
     {
-      image: "/images/pele.jpg",
-      name: "james Doe",
-      position: "taxman",
+      image: "/avatars/peris-avatar.jpeg",
+      name: "Peris Miriam",
+      position: "Treasurer & co-founder",
       about:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
     },
     {
-      image: "/images/pele.jpg",
-      name: "jane Doe",
-      position: "adminstrator",
+      image: "/avatars/paul-avatar.jpeg",
+      name: "Paul Otieno",
+      position: "co-founder",
       about:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
     },
-    {
-      image: "/images/pele.jpg",
-      name: "james Doe",
-      position: "driver",
-      about:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
-    },
+    // {
+    //   image: "/avatars/pele.jpg",
+    //   name: "james Doe",
+    //   position: "driver",
+    //   about:
+    //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
+    // },
   ],
 };
