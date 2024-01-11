@@ -21,6 +21,17 @@ const Hero = () => {
           {buttonText}
         </button>
 
+        <div className="mb-8">
+          <a
+            href="https://tisini-portal.vercel.app/auth/register"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="md:hidden hover:bg-green-600 bg-orange text-xl rounded-md backdrop-blur-md transition p-2"
+          >
+            Register Here
+          </a>
+        </div>
+
         <div className="bottom-0 flex items-center justify-center">
           <FlipClock />
         </div>
