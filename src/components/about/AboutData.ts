@@ -51,7 +51,7 @@ export const whoWeAre = {
     {
       image: "/avatars/paul-avatar.jpeg",
       name: "Paul Otieno",
-      position: "co-founder",
+      position: "Secretary & co-founder",
       about:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
     },

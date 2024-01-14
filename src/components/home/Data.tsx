@@ -136,7 +136,11 @@ export const footer = {
       icon: <FaFacebook />,
       link: "https://web.facebook.com/profile.php?id=100063722136488&mibextid=ZbWKwL&_rdc=1&_rdr",
     },
-    { name: "twitter", icon: <FaXTwitter /> },
+    {
+      name: "twitter",
+      icon: <FaXTwitter />,
+      link: "https://twitter.com/RaushaKipajiCup",
+    },
     {
       name: "instagram",
       icon: <FaInstagram />,
