@@ -146,7 +146,11 @@ export const footer = {
       icon: <FaInstagram />,
       link: "https://www.instagram.com/raushakipajicup/?utm_source=qr&igsh=MXJ2OHVyNzFxZTRyMA%3D%3D",
     },
-    { name: "linkedin", icon: <FaLinkedinIn /> },
+    {
+      name: "linkedin",
+      icon: <FaLinkedinIn />,
+      link: "https://www.linkedin.com/in/rausha-kipaji-cup-2657572aa/",
+    },
   ],
   links: [
     { name: "Home", link: "/" },

@@ -36,22 +36,22 @@ export const whoWeAre = {
   persons: [
     {
       image: "/avatars/mbenzwa-avatar.jpeg",
-      name: "Mbenzwa Kamara",
-      position: "Chairman & co-founder",
+      name: "John Mbenzwa",
+      position: "Partnerships/Membership & Co-Founder",
       about:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
     },
     {
       image: "/avatars/peris-avatar.jpeg",
       name: "Peris Miriam",
-      position: "Treasurer & co-founder",
+      position: "Finance/Admin & Co-Founder",
       about:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
     },
     {
       image: "/avatars/paul-avatar.jpeg",
-      name: "Paul Otieno",
-      position: "Secretary & co-founder",
+      name: "Paul Nyang'owo Otieno",
+      position: "Strategic Advisor & Co-Founder",
       about:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam ",
     },
