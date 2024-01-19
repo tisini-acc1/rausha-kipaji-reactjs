@@ -24,7 +24,7 @@ const WhoWeAre = () => {
                 <h1 className="text-xl font-semibold capitalize">
                   {person.name}
                 </h1>
-                <p className="text-base text-[#71717a] capitalize">
+                <p className="text-sm text-[#71717a] capitalize whitespace-nowrap overflow-hidden">
                   {person.position}
                 </p>
               </div>
