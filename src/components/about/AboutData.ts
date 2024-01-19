@@ -1,7 +1,7 @@
 export const ourStory = {
   caption: "our story",
   title: "2024 Focus –Going Green Through Sports!",
-  image: "/images/23/rausha-4.jpg",
+  image: "/images/23/rausha-23-6.jpg",
   intro:
     "Rausha Kipaji Cup – is the leading grassroots youth football tournament in Kenya, organized during the April school holiday in Nakuru County, Kenya.",
   para1:

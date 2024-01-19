@@ -16,7 +16,7 @@ const Accordion = () => {
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="flex-1 order-1 lg:-order-1">
             <div>
-              <img src="/images/23/kipaji2023.jpeg" alt="" />
+              <img src="/images/23/rausha-23.jpeg" alt="" />
             </div>
           </div>
 

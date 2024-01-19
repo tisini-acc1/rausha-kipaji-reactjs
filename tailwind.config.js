@@ -33,7 +33,7 @@ export default {
       },
       backgroundImage: {
         hero: 'url("/images/hero-bg.jpg")',
-        cta: 'url("/images/23/rausha-6.jpg")',
+        cta: 'url("/images/23/rausha-23-8.jpg")',
         about: 'url("/images/hero-bg.jpg")',
         quote: 'url("/images/hero-bg.jpg")',
         faqs: 'url("/images/23/kipaji2023.jpeg")',

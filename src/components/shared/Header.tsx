@@ -58,7 +58,7 @@ const Header = () => {
               ))}
 
               <a
-                href="https://tisini-portal.vercel.app/auth/register"
+                href="https://tisini-portal.vercel.app/auth/register/team-owner"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:bg-green-600 bg-orange  text-xl rounded-md backdrop-blur-md transition p-2"

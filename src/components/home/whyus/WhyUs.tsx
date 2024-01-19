@@ -9,7 +9,7 @@ const WhyUs = () => {
             <div className="mx-auto h-[450] w-[600]">
               <img
                 className="h-full rounded-lg shadow-lg"
-                src="/images/23/rausha-3.jpg"
+                src="/images/23/rausha-23-5.jpg"
                 alt="hero-image"
               />
             </div>

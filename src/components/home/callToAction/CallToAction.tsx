@@ -12,7 +12,7 @@ const CallToAction = () => {
 
         {/* <button className="hover:bg-green-600 bg-orange px-[35px] py-[9px] text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px]"> */}
         <a
-          href="https://tisini-portal.vercel.app/auth/register"
+          href="https://tisini-portal.vercel.app/auth/register/team-owner"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:bg-green-600 bg-orange px-[35px] py-[9px] text-xl rounded-md backdrop-blur-md transition lg:px-[60px] lg:py-[16px]"
