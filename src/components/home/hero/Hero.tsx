@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className="mb-8">
           <a
-            href="https://tisini-portal.vercel.app/auth/register"
+            href="https://portal.tisini.co.ke/auth/register/team-owner"
             target="_blank"
             rel="noopener noreferrer"
             className="md:hidden hover:bg-green-600 bg-orange text-xl rounded-md backdrop-blur-md transition p-2"
