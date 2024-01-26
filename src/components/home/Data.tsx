@@ -85,18 +85,22 @@ export const partners = {
     },
     {
       brands: [
-        { id: 1, logo: "/partners/mec-logo.jpeg" },
-        { id: 3, logo: "/partners/cheza-sports-logo.jpeg" },
-        { id: 2, logo: "/partners/tisini-logo.png" },
-        { id: 4, logo: "/partners/soka-afrika-logo.jpeg" },
+        { id: 1, logo: "/partners/altar-sports.jpeg" },
+        { id: 3, logo: "/partners/first-touch-soka.jpeg" },
+        { id: 2, logo: "/partners/kings.JPG" },
+        { id: 4, logo: "/partners/soka-talent.jpeg" },
       ],
     },
   ],
   mobileBrands: [
     { id: 1, logo: "/partners/mec-logo.jpeg" },
-    { id: 3, logo: "/partners/cheza-sports-logo.jpeg" },
-    { id: 4, logo: "/partners/soka-afrika-logo.jpeg" },
-    { id: 2, logo: "/partners/tisini-logo.png" },
+    { id: 2, logo: "/partners/cheza-sports-logo.jpeg" },
+    { id: 3, logo: "/partners/soka-afrika-logo.jpeg" },
+    { id: 4, logo: "/partners/tisini-logo.png" },
+    { id: 5, logo: "/partners/altar-sports.jpeg" },
+    { id: 6, logo: "/partners/first-touch-soka.jpeg" },
+    { id: 7, logo: "/partners/kings.JPG" },
+    { id: 8, logo: "/partners/soka-talent.jpeg" },
   ],
 };
 

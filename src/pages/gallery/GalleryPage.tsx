@@ -5,10 +5,10 @@ const GalleryPage = () => {
   const navigate = useNavigate();
   return (
     <main className="w-full">
-      <section className="bg-hero bg-no-repeat bg-cover bg-center min-h-screen text-white relative pt-[110px] lg:pt-[200px] flex justify-center">
-        <div className="bg-black bg-opacity-70 absolute inset-0"></div>
+      <section className="bg-hero bg-no-repeat bg-cover bg-center text-white relative pt-[110px] pb-12 lg:pt-[200px] flex justify-center">
+        {/* <div className="bg-black bg-opacity-70 absolute inset-0"></div> */}
 
-        <div className="grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 absolute">
+        <div className="grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4">
           {seasons.map((season) => (
             <div
               key={season.year}
@@ -26,6 +26,22 @@ const GalleryPage = () => {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="mx-auto py-4 overflow-hidden max-w-[800px]">
+        <h1 className="text-xl font-bold font-serif mb-4">Videos</h1>
+
+        <div className="aspect-w-16 aspect-h-9 md:h-[500px]">
+          <iframe
+            width="853"
+            height="480"
+            src="https://www.youtube.com/embed/2o3VQuhLyDQ?si=EIcLE8VdtHFI3Jjz"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className="w-full h-full"
+          ></iframe>
         </div>
       </section>
     </main>
