@@ -91,6 +91,14 @@ export const partners = {
         { id: 4, logo: "/partners/soka-talent.jpeg" },
       ],
     },
+    {
+      brands: [
+        { id: 1, logo: "/partners/decathlon-logo.png" },
+        { id: 3, logo: "/partners/runda-ridge.jpeg" },
+        { id: 2, logo: "/partners/kings.JPG" },
+        { id: 4, logo: "/partners/soka-talent.jpeg" },
+      ],
+    },
   ],
   mobileBrands: [
     { id: 1, logo: "/partners/mec-logo.jpeg" },
@@ -101,6 +109,8 @@ export const partners = {
     { id: 6, logo: "/partners/first-touch-soka.jpeg" },
     { id: 7, logo: "/partners/kings.JPG" },
     { id: 8, logo: "/partners/soka-talent.jpeg" },
+    { id: 9, logo: "/partners/decathlon-logo.png" },
+    { id: 10, logo: "/partners/runda-ridge.jpeg" },
   ],
 };
 
