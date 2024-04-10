@@ -37,6 +37,7 @@ export default {
         about: 'url("/images/hero-bg.jpg")',
         quote: 'url("/images/hero-bg.jpg")',
         faqs: 'url("/images/23/kipaji2023.jpeg")',
+        tisini: 'url(/tisini-banner.jpg)',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",
