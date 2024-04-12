@@ -1,19 +1,33 @@
 import { FixturesHeader } from "@components/fixtures/FixturesHeader";
+import { useQuery } from "@tanstack/react-query";
+import { GetFixtures } from "src/lib/getFixtures";
 
 const FixturesPage = () => {
+  const { data, isLoading } = useQuery({
+    queryKey: ["fixtures"],
+    queryFn: GetFixtures,
+  });
+
+  console.log(data);
+  if (isLoading) return <div className="h-24 items-center">Loading...</div>;
+
   return (
     <main className="min-h-screen bg-primary max-w-[900px] mx-auto ">
       <FixturesHeader />
-      <section className="flex p-2 space-y-1">
+      <section className="flex flex-col md:flex-row p-2 space-y-1">
         <div className="flex-1">
-          <nav className="flex gap-x-2 text-white">
-            <div className="border p-1">18 Thurs</div>
-            <div className="border p-1">19 Fri</div>
+          <nav className="grid grid-cols-4 gap-x-2 mb-2 bg-black text-white">
+            <div className="border p-1 flex items-center">
+              <p>U15</p>
+            </div>
+            <div className="border p-1">U17</div>
+            <div className="border p-1">U19</div>
+            <div className="border p-1">U20</div>
           </nav>
 
           <div className="text-white">
             <div className="mb-4">
-              <div className="flex justify-between font-bold bg-black rounded-sm p-1">
+              <div className="flex justify-between font-bold bg-secondary rounded-sm p-1">
                 <h2 className="">Group A</h2> <span>Standings</span>
               </div>
 
@@ -24,7 +38,7 @@ const FixturesPage = () => {
             </div>
 
             <div className="mb-4">
-              <div className="flex justify-between font-bold p-1">
+              <div className="flex justify-between font-bold bg-secondary p-1">
                 <h2 className="">Group A</h2> <span>Standings</span>
               </div>
 
@@ -36,7 +50,9 @@ const FixturesPage = () => {
           </div>
         </div>
 
-        <div className="w-[1/3]">Top scorers</div>
+        <div className="w-[300px] ml-2 p-1 border border-black">
+          <h1 className="font-bold text-white">Top goal scorers</h1>
+        </div>
       </section>
     </main>
   );
@@ -46,7 +62,7 @@ export default FixturesPage;
 
 const FixtureCard = () => {
   return (
-    <div className="flex gap-2 text-sm border-b hover:bg-orange cursor-pointer">
+    <div className="flex gap-2 text-sm border-b-2 border-black hover:bg-secondary cursor-pointer">
       <div className="m-2">time</div>
       <div className="w-full">
         <div className="flex justify-between">
