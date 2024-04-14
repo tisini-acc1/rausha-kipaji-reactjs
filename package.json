@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@leenguyen/react-flip-clock-countdown": "^1.4.1",
+    "@tanstack/react-query": "^5.29.2",
+    "axios": "^1.6.8",
+    "flowbite": "^2.3.0",
+    "flowbite-react": "^0.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",

@@ -27,6 +27,10 @@ export const navigation = [
     name: "Gallery",
     href: "/gallery",
   },
+  {
+    name: "Fixture",
+    href: "/fixtures",
+  },
 ];
 
 export const hero = {

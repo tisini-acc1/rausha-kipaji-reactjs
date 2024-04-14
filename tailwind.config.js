@@ -1,3 +1,5 @@
+const flowbite = require("flowbite-react/tailwind");
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -17,6 +19,7 @@ export default {
     extend: {
       colors: {
         primary: "#23262F",
+        secondary: "#16171a",
         accent: "#286F6C",
         grey: {
           DEFAULT: "#919297",
@@ -37,11 +40,18 @@ export default {
         about: 'url("/images/hero-bg.jpg")',
         quote: 'url("/images/hero-bg.jpg")',
         faqs: 'url("/images/23/kipaji2023.jpeg")',
+        tisini: 'url(/tisini-banner.jpg)',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",
       },
     },
   },
-  plugins: [],
+  content: [
+    "./index.html", "./src/**/*.{js,ts,jsx,tsx}",
+    flowbite.content()
+  ],
+  plugins: [
+    flowbite.plugin(),
+  ],
 };
