@@ -1,4 +1,5 @@
 import { FixturesHeader } from "@components/fixtures/FixturesHeader";
+import Spinner from "@components/spinner/Spinner";
 import { useQuery } from "@tanstack/react-query";
 import { GetFixtures } from "src/lib/getFixtures";
 import GroupFixtures from "src/lib/groupFixtures";
@@ -10,10 +11,11 @@ const FixturesPage = () => {
     queryFn: GetFixtures,
   });
 
-  if (isLoading) return <div className="h-24 items-center">Loading...</div>;
+  if (isLoading) return <Spinner />;
 
   const fixturesData = GroupFixtures(data?.data);
-  const fixtures = fixturesData["2024-04-18"]["Rausha Kipaji Cup"];
+  const fixtures = fixturesData["2024-04-18"]["U15 Boys"];
+
   // console.log(fixtures);
 
   return (
@@ -31,17 +33,19 @@ const FixturesPage = () => {
           </nav>
 
           <div className="text-white">
-            <div className="mb-4">
-              <div className="flex justify-between font-bold bg-secondary rounded-sm p-1">
-                <h2 className="">Rausha Kipaji Cup -U15</h2>{" "}
-                <span>Standings</span>
-                {/* <h2 className="">Group A</h2> <span>Standings</span> */}
+            {Object.entries(fixtures).map(([groupName, groupFixtures]) => (
+              <div className="mb-4" key={groupName}>
+                <div className="flex justify-between text-sm font-semibold bg-secondary rounded-sm p-2">
+                  <h2 className="">
+                    {groupFixtures[0].category} - {groupName}
+                  </h2>
+                  <span className="text-slate-300 text-xs">Standings</span>
+                </div>
+                {groupFixtures.map((fixture) => (
+                  <FixtureCard key={fixture.id} fixture={fixture} />
+                ))}
               </div>
-
-              {fixtures.map((fixture) => (
-                <FixtureCard key={fixture.id} fixture={fixture} />
-              ))}
-            </div>
+            ))}
           </div>
         </div>
 
@@ -60,13 +64,21 @@ interface FixtureCardProps {
 }
 
 const FixtureCard: React.FC<FixtureCardProps> = ({ fixture }) => {
-  const { away_score, game_status, home_score, team1_name, team2_name } =
-    fixture;
+  const {
+    away_score,
+    game_status,
+    home_score,
+    team1_name,
+    team2_name,
+    matchtime,
+    field_id,
+  } = fixture;
 
   return (
-    <div className="flex gap-2 text-sm border-b-2 border-black hover:bg-secondary cursor-pointer">
-      <div className="m-2">time</div>
-      <div className="w-full">
+    <div className="flex gap-2 text-xs p-1 border-b-2 border-black hover:bg-[#15321c] cursor-pointer">
+      <div className="flex items-center justify-center">{matchtime}</div>
+
+      <div className="w-full space-y-2 p-1">
         <div className="flex justify-between">
           <div className="flex items-center justify-center gap-2">
             <img src="/homeLogo.png" alt="Logo" className="w-4 h-4" />
@@ -89,6 +101,12 @@ const FixtureCard: React.FC<FixtureCardProps> = ({ fixture }) => {
           )}
         </div>
       </div>
+
+      {game_status === "notstarted" && (
+        <div className="flex items-center justify-center whitespace-nowrap">
+          field {field_id}
+        </div>
+      )}
     </div>
   );
 };
