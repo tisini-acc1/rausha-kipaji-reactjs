@@ -28,7 +28,7 @@ export const navigation = [
     href: "/gallery",
   },
   {
-    name: "Fixture",
+    name: "Fixtures",
     href: "/fixtures",
   },
 ];

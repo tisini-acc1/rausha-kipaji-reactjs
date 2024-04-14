@@ -17,6 +17,12 @@ export type Fixture = {
     matchday: string;
     fixture_type: string;
     series: string;
+    agent_id: null;
+    category: string;
+    field_id: string;
+    groupname: string;
+    winner: null | string;
+    matchtime: string;
   };
   
   export type FixtureDetails = {
@@ -122,7 +128,9 @@ export type Fixture = {
   
   export type GroupedFixtures = {
     [date: string]: {
-      [league: string]: Fixture[];
+      [category: string]: {
+        [group: string]: Fixture[];
+      };
     };
   };
   
