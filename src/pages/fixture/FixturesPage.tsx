@@ -26,7 +26,7 @@ const FixturesPage = () => {
       : [];
 
   // console.log(category);
-  // console.log(fixtures);
+  console.log(fixtures);
   // console.log(fixturesData[date]);
 
   return (
@@ -96,11 +96,18 @@ const FixtureCard: React.FC<FixtureCardProps> = ({ fixture }) => {
     team2_name,
     matchtime,
     pitchname,
+    minute,
   } = fixture;
 
   return (
     <div className="flex gap-2 text-xs p-1 border-b-2 border-black hover:bg-[#15321c] cursor-pointer">
-      <div className="flex items-center justify-center">{matchtime}</div>
+      <div className="flex items-center justify-center">
+        {game_status === "notstarted"
+          ? matchtime
+          : game_status === "started"
+          ? minute
+          : "FT"}
+      </div>
 
       <div className="w-full space-y-2 p-1">
         <div className="flex justify-between">
@@ -109,7 +116,7 @@ const FixtureCard: React.FC<FixtureCardProps> = ({ fixture }) => {
             <div>{team1_name}</div>
           </div>
 
-          {game_status === "started" && (
+          {game_status !== "notstarted" && (
             <h1 className="font-semibold mr-4">{home_score}</h1>
           )}
         </div>
@@ -120,7 +127,7 @@ const FixtureCard: React.FC<FixtureCardProps> = ({ fixture }) => {
             <div>{team2_name}</div>
           </div>
 
-          {game_status === "started" && (
+          {game_status !== "notstarted" && (
             <h1 className="font-semibold mr-4">{away_score}</h1>
           )}
         </div>
