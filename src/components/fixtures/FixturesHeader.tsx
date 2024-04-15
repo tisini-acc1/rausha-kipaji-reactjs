@@ -5,7 +5,7 @@ type HeaderProps = {
 
 export const FixturesHeader = ({ dates, setDates }: HeaderProps) => {
   return (
-    <div className="bg-tisini bg-center h-32 sticky top-0 z-10">
+    <div className="bg-tisini bg-center h-32 sticky top-0">
       <nav className="flex md:gap-4 gap-2 absolute bottom-1">
         <button
           className="px-4 border rounded-md bg-orange hover:bg-green-600 font-semibold whitespace-nowrap"
