@@ -26,7 +26,7 @@ const FixturesPage = () => {
       : [];
 
   // console.log(category);
-  console.log(fixtures);
+  // console.log(fixtures);
   // console.log(fixturesData[date]);
 
   return (
