@@ -23,6 +23,7 @@ export type Fixture = {
     groupname: string;
     winner: null | string;
     matchtime: string;
+    pitchname: string;
   };
   
   export type FixtureDetails = {
