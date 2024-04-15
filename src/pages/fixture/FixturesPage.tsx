@@ -31,7 +31,7 @@ const FixturesPage = () => {
 
   return (
     <main className="min-h-screen bg-primary max-w-[900px] mx-auto ">
-      <FixturesHeader dates={DATES} setDates={setDate} />
+      <FixturesHeader selectedDate={date} dates={DATES} setDates={setDate} />
 
       <section className="flex flex-col md:flex-row p-2 space-y-1">
         <div className="flex-1">
