@@ -39,14 +39,18 @@ export const SiteNavbar = () => {
               </li>
             ))}
 
-            <a
+            <button className="hover:bg-green-600 bg-orange  text-xl rounded-md backdrop-blur-md transition p-2">
+              <Link to="/fixtures">Get Fixtures</Link>
+            </button>
+
+            {/* <a
               href="https://portal.tisini.co.ke/auth/register/team-owner"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:bg-green-600 bg-orange  text-xl rounded-md backdrop-blur-md transition p-2"
             >
               Register Here
-            </a>
+            </a> */}
           </ul>
         </nav>
 
