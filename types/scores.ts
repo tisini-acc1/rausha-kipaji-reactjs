@@ -136,3 +136,7 @@ export type Fixture = {
   };
   
   export type FixturesArray = [string, Fixture[]];
+
+  export type Category = { id: string; name: string; date_created: string };
+
+  export type Scorers = { tot: string; name: string; pname: string };
