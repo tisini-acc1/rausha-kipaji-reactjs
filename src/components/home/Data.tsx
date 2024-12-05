@@ -36,7 +36,7 @@ export const navigation = [
 export const hero = {
   title: "Rausha Kipaji Cup",
   subtitle: "Africa's premier youth football tournament",
-  buttonText: "18th - 21st April, 2024",
+  buttonText: "17th - 20th April, 2025",
 };
 
 export const whyus = [
