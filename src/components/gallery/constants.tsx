@@ -1,5 +1,23 @@
 export const seasons = [
   {
+    year: "2025",
+    theme: "Going green through sports",
+    images: [
+      "/images/25/rausha25-3.jpeg",
+      "/images/25/rausha25.jpeg",
+      "/images/25/rasha25-1.jpeg",
+      "/images/25/rausha25-4.jpeg",
+      "/images/25/rausha25-5.jpeg",
+      "/images/25/rausha25-6.jpeg",
+      "/images/25/rausha25-7.jpeg",
+      "/images/25/rausha25-8.jpeg",
+      "/images/25/rausha25-9.jpeg",
+      "/images/25/rausha25-10.jpeg",
+      "/images/25/rausha25-11.jpeg",
+      "/images/25/rausha25-2.jpeg",
+    ],
+  },
+  {
     year: "2023",
     theme: "Going green through sports",
     images: [

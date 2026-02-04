@@ -36,7 +36,7 @@ export const navigation = [
 export const hero = {
   title: "Rausha Kipaji Cup",
   subtitle: "Africa's premier youth football tournament",
-  buttonText: "17th - 20th April, 2025",
+  buttonText: "16th - 19th April, 2026",
 };
 
 export const whyus = [
@@ -124,6 +124,20 @@ export const testimonial = {
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
   persons: [
     {
+      avatar: "/avatars/avatar1.jpg",
+      name: "Coach Arocho",
+      title: "Kenya Youth Soccer Academy (2026) - Nairobi County",
+      message:
+        "Rausha Kipaji Cup bound!  KYSA is heading to Nakuru for the 7th edition, after conquering the 5th and 6th editions!  Expect intense battles from Nairobi and Western Kenya teams!  Join us for thrilling football!",
+    },
+    {
+      avatar: "/avatars/avatar1.jpg",
+      name: "Coach Rio",
+      title: "Rausha Kipaji Cup Coordinator",
+      message:
+        "Rausha Kipaji is one of the best youth tournaments in the country, bringing all sorts of people together in a very competitive football environment. The tournament is not all about winning, but giving young players enough playtime to build on their football careers and express themselves on the pitch. The coordination, planning, and everything has always been top notch.",
+    },
+    {
       avatar: "/avatars/Okalo.jpeg",
       name: "Coach Okalo",
       title: "DeSa Soccer Academy (2023) - Kakamega County",
@@ -137,13 +151,6 @@ export const testimonial = {
       message:
         "As Soka Talent, this is our third edition in the Rausha Kipaji Cup. The first one was better and the second one even better. We are expecting stiff competition especially from Nairobi teams",
     },
-    // {
-    //   avatar: "/avatars/avatar.jpg",
-    //   name: "Paula Pfeffer",
-    //   title: "Manager of Kenya United",
-    //   message:
-    //     "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    // },
   ],
 };
 
